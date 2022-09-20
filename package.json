@@ -1,0 +1,14 @@
+{
+  "name": "photo-gallery",
+  "version": "1.0.0",
+  "description": "<div class=\"container text-center\">       <!-- Stack the columns on mobile by making one full-width and the other half-width -->       <div class=\"row\">         <div class=\"col-md-8\">  <img class=\"img-fluid\" src=\"https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg\"> </div>         <div class=\"col-6 col-md-4\">  <img class=\"img-fluid\" src=\"https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg\"></div>       </div>",
+  "main": "my.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^3.0.0"
+  }
+}

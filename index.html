@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Photo Gallery</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+
+<body>
+
+  <section><div id='flexcode' class='flexcode' onclick="moveBack()">
+    <div>
+      <img class="codeimg" src="" alt="photo">
+
+    </div>
+
+   <div class="form-row text-center">
+      <div class="col-12">
+
+        <a class="btn btn-outline-secondary ">Back</a>
+      </div>
+    </div>
+     </div>
+    </section>
+
+
+
+
+
+
+  <header class="header">
+<nav class="header navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+
+      <p class='title'> how i make photo gallery 🙌</p>
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto" >
+        <a class="nav-link active" aria-current="page" href="#flexbox">Flexbox</a>
+        <a class="nav-link" href="#grid">Grid</a>
+        <a class="nav-link" href="#bootstrap">Bootstrap</a>
+
+      </div>
+    </div>
+  </div>
+</nav>
+
+  </header>
+
+  <body>
+
+
+    <section id='flexbox'>
+
+
+      <h2 class="text-center"> Use css flexbox </h2>
+      <p class="text-center"> flexbox is ...... please see detailed code by click this link</p>
+      <p id='superhero'></p>
+
+      <div class="form-row text-center">
+        <div class="col-12">
+          <!-- <button type="submit" class="btn btn-outline-secondary">review code</button> -->
+          <button  name='flex' class=" btn btn-outline-secondary clickable"   onclick="popUp('flex')">review code</button>
+        </div>
+
+<p calss='superhero'></p>
+      </div>
+       <div class="gallery">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg">
+        <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg">
+
+      </div>
+
+    </section>
+
+
+<hr>
+
+
+
+    <section id='grid'>
+
+      <h2 class="text-center"> Use css Grid</h2>
+      <p class="text-center"> Grid is ...... please see detailed code by click this link</p>
+
+      <div class="form-row text-center">
+        <div class="col-12">
+          <button  name='grid' class=" btn btn-outline-secondary"   onclick="popUp('grid')">review code</button>
+        </div>
+      </div>
+
+
+
+      <div class="gridgallery">
+        <div class='gridim img1'><img src="https://picsum.photos/400/300?random=1" alt=""></div>
+        <div class='gridim img2'><img src="https://picsum.photos/300/300?random=2" alt=""></div>
+        <div class='gridim img3'><img class='img3' src="https://picsum.photos/300/300?random=3" alt=""></div>
+        <div class='gridim img4'><img src="https://picsum.photos/300/300?random=4" alt=""></div>
+        <div class='gridim img5'><img src="https://picsum.photos/300/300?random=5" alt=""></div>
+        <div class='gridim img6' ><img src="https://picsum.photos/300/300?random=6" alt=""></div>
+
+       </div>
+
+
+
+
+  </section>
+
+  <hr>
+
+
+  <section id='bootstrap'>
+    <h2 class="text-center"> Use bootstrap</h2>
+    <p class="text-center"> bootstrap is ...... please see detailed code by click this link</p>
+
+    <div class="form-row text-center">
+      <div class="col-12">
+        <button  name='bootstrap' class=" btn btn-outline-secondary clickable"   onclick="popUp('bootstrap')">review code</button>
+      </div>
+    </div>
+
+
+  <div class="row bootstrap">
+    <div class="col-xl-3 col-md-6">
+      <img class="img-thumbnail" src="https://picsum.photos/400/400?carr" alt="car">
+  </div>
+
+    <div class="col-xl-3 col-md-6">
+      <img class="img-thumbnail" src="https://picsum.photos/400/400?book" alt="car">
+</div>
+
+<div class="col-xl-3 col-md-6">
+  <img class="img-thumbnail" src="https://picsum.photos/400/400?cat" alt="car">
+</div>
+<div class="col-xl-3 col-md-6">
+  <img class="img-thumbnail" src="https://picsum.photos/400/400?dog" alt="car">
+</div>
+<div class="col-xl-3 col-md-6">
+  <img class="img-thumbnail" src="https://picsum.photos/400/400?house" alt="car">
+</div>
+<div class="col-xl-3 col-md-6">
+  <img class="img-thumbnail" src="https://picsum.photos/400/400?flower" alt="car">
+</div>
+<div class="col-xl-3 col-md-6">
+  <img class="img-thumbnail" src="https://picsum.photos/400/400?sky" alt="car">
+</div>
+<div class="col-xl-3 col-md-6">
+  <img class="img-thumbnail" src="https://picsum.photos/400/400?ocean" alt="car">
+</div>
+
+  </div>
+
+
+
+
+
+</section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+<footer class="bg-light text-center text-lg-start footer">
+
+  <div class="text-center p-3" >
+  <p>Author: Ocean Duo</p>
+    <a class="text-dark" href="https://www.oceanduo.com/">Check my portflio</a>
+  </div>
+
+</footer>
+<script src="./my.js"></script>
+</html>
